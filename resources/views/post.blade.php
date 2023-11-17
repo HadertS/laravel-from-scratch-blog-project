@@ -1,11 +1,10 @@
-<title>My Blog</title>
-<link rel="stylesheet" href="/app.css">
+<x-layout>
+    <article>
+        <h1>{{$post->title}}</h1>
 
-<article>
-    <h1><?=  $post->title; ?></h1>
-
-    <div>
-        <?= $post->body; ?>
-    </div>
-</article>
-<a href="/">Go back</a>
+        <div>
+            {!!$post->body!!}
+        </div>
+    </article>
+    <a href="/">Go back</a>
+</x-layout>
