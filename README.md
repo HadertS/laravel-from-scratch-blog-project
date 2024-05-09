@@ -1,4 +1,4 @@
-This is a follow through of Jeffrey Way's [laravel 8 from scratch](https://laracasts.com/series/laravel-8-from-scratch), done as part of  #100DaysOfCode.
+This was done as part of an attempt at #100DaysOfCode. It makes heavy use of the resources provided in Jeffrey Way's [laravel 8 from scratch](https://laracasts.com/series/laravel-8-from-scratch).
 
 ## Installation
 
